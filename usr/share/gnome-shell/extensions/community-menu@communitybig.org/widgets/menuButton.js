@@ -4,7 +4,7 @@ import St from 'gi://St';
 
 import * as Constants from '../constants.js';
 
-const MENU_ICON_NAME = 'bigcommunity-menu-symbolic';
+const MENU_ICON_NAME = 'distributor-logo-blackarch';
 
 export const MenuButton = GObject.registerClass({
 }, class CommunityBigMenuButton extends St.BoxLayout {

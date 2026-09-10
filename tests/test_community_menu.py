@@ -116,7 +116,7 @@ def test_menu_button_uses_shared_bigcommunity_icon():
     icon = ROOT / "usr/share/icons/hicolor/scalable/apps/distributor-logo-blackarch.svg"
 
     assert icon.is_file()
-    assert "bigcommunity-menu-symbolic" in source
+    assert "distributor-logo-blackarch" in source
     assert "set_icon_name(MENU_ICON_NAME)" in source
     assert "MENU_BUTTON_ICON_SIZE = 36" in constants
     assert "style_class: 'community-menu-button-icon'" in source

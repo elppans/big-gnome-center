@@ -121,7 +121,7 @@ def test_gunity_dock_uses_shared_bigcommunity_menu_icon():
     assert "this._host.layout = profile.layout" in dock
     assert "delete this._host.layout" in dock
     assert "Docking.DockSurfaceManager.extension.layout === 'G-Unity'" in app_icons
-    assert "GUNITY_MENU_ICON_NAME = 'bigcommunity-menu-symbolic'" in app_icons
+    assert "GUNITY_MENU_ICON_NAME = 'distributor-logo-blackarch'" in app_icons
     assert "this._iconActor.gicon = null" in app_icons
 
 

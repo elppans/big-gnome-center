@@ -61,7 +61,7 @@ const COMMUNITY_INDICATOR_GEOMETRY = new Map([
     ['hybrid', {inactive: [18, 4], active: [18, 4], radius: 2}],
     ['desk-ux', {inactive: [8, 3], active: [18, 3], radius: 2}],
 ]);
-const GUNITY_MENU_ICON_NAME = 'bigcommunity-menu-symbolic';
+const GUNITY_MENU_ICON_NAME = 'distributor-logo-blackarch';
 
 const clickAction = Object.freeze({
     SKIP: 0,
