@@ -39,7 +39,7 @@ def test_application_icon_has_large_intrinsic_size():
 
 
 def test_shared_menu_icon_has_shell_button_size():
-    icon = ROOT / "usr/share/icons/hicolor/scalable/apps/bigcommunity-menu-symbolic.svg"
+    icon = ROOT / "usr/share/icons/hicolor/scalable/apps/distributor-logo-blackarch.svg"
     root = ET.parse(icon).getroot()
 
     assert root.attrib["width"] == "48"

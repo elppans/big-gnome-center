@@ -113,7 +113,7 @@ def test_community_menu_packages_all_supported_catalogs():
 def test_menu_button_uses_shared_bigcommunity_icon():
     source = (EXTENSION_DIR / "widgets/menuButton.js").read_text()
     constants = (EXTENSION_DIR / "constants.js").read_text()
-    icon = ROOT / "usr/share/icons/hicolor/scalable/apps/bigcommunity-menu-symbolic.svg"
+    icon = ROOT / "usr/share/icons/hicolor/scalable/apps/distributor-logo-blackarch.svg"
 
     assert icon.is_file()
     assert "bigcommunity-menu-symbolic" in source
